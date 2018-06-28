@@ -1,0 +1,183 @@
+/* ================================= 
+全局设置
+==================================== */
+
+* {
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+
+
+/* ================================= 
+移动优先CSS规则
+==================================== */
+
+/*  123.html    */
+
+body {
+
+    background: url(../images/f171c0c722c23b5ddc99d76d8fcdc2e0.jpg) no-repeat center center scroll;
+    opacity: 0.6;
+    filter: alpha(opacity=50);
+
+    background-size: cover;
+}
+
+header {
+    text-align: center;
+    background-color: rgba(#3333CC, #3366CC, #3399CC, 1);
+
+}
+
+a {
+    display: block;
+    color: black;
+}
+
+b {
+    display: block;
+    color: #00FFCC;
+}
+
+}
+
+button {
+    font-size: .85em;
+    padding: .65em 1em;
+    border-radius: .6em;
+    outline: 0;
+    color: #00FF99;
+}
+
+.Logo {
+    margin: 0;
+}
+
+.Logo a {
+    padding-top: .6em;
+    padding-bottom: .5em;
+    color: #ADD8E6;
+}
+
+h1 {
+    margin: 0;
+    padding: .9em 0;
+    text-shadow: 1px 1px 1px black;
+    color: #CDB79E;
+
+}
+
+
+h2 {
+    text-align: right;
+    font-size: 60px;
+    color: #ADD8E6;
+
+}
+
+
+
+.col h1 {
+    text-align: center;
+}
+
+.col h2 {
+    text-align: center;
+}
+
+
+
+
+.navlist li a {
+    padding: 1em 0;
+}
+
+.navlist li a:hover {
+    background-color: yellow;
+    transition: 3s;
+}
+
+footer {
+    text-align: center;
+    padding: 2em 0;
+    background-color: firebrick;
+}
+
+.wrap {
+    min-height: calc(100vh - 86px);
+}
+
+.wrap {
+    min-height: calc(100vh - 133px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*下面属于电脑终端！！！*/
+
+@media (min-width:1000px) {
+    .main-header {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+
+    .navlist {
+        display: flex;
+        align-items: stretch;
+
+    }
+
+    .navlist li a {
+        padding: 2em 2em;
+
+    }
+
+    .banner {
+        height: 700px;
+    }
+    .container {
+        padding: 2em 0;
+        width: 85%;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+    }
+    .col {
+        flex-basis: 20%;
+        flex-grow: 1;
+        margin: 0 .6em;
+        height: 350px;
+        display: flex;
+        flex-direction: column-reverse;
+        border-radius: 15px;
+        border: 0px solid rgba(0, 0, 0, 0);
+    }
+
+
+    .col h1 {
+        padding: 0 .5em;
+    }
+}
